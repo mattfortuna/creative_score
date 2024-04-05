@@ -1,6 +1,6 @@
-import { calculateClickWeight } from './rules/clickWeight.js';
-import { calculateEngagementWeight } from './rules/engagementWeight.js';
-import { calculateTimeWeight } from './rules/timeWeight.js';
+import { calculateClickWeight } from './rules/calculateClickWeight.js';
+import { calculateEngagementWeight } from './rules/calculateEngagementWeight.js';
+import { calculateTimeWeight } from './rules/calculateTimeWeight.js';
 import { creatives } from './creatives.js';
   
 const audience = 'tech'; // this can be made to be variable as well
