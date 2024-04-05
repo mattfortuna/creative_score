@@ -26,6 +26,6 @@ npm install
 
 npm run creative
 
-I used this site to test. However it is designed with Node.js in mind.
+If there are any issues you can test on this online setup I have. It is written as frontend js, but works the same.
 
 [Testing](https://playcode.io/1826494)
