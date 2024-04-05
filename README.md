@@ -20,7 +20,7 @@ Project Organization:
 
 ## Testing / Running the code
 
-Clone github repo. Run the following commands:
+Clone github repo. Install node. Run the following commands:
 
 npm install
 
