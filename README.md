@@ -14,6 +14,6 @@ A future design can be deciding on a naming scheme for the creative properties t
 
 The project is organized as follows:
 
-- `/rules` - Contains separate modules for each weight calculation (`clickWeight.js`, `engagementWeight.js`, `timeWeight.js`).
+- `/rules` - Contains separate modules for each weight calculation (`calculateClickWeight.js`, `calculateEngagementWeight.js`, `calculateTimeWeight.js`).
 - `creatives.js` - Module exporting the array of creative objects.
 - `index.js` - The main entry point for the application which uses the modular weight calculations.
