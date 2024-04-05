@@ -12,7 +12,7 @@ A future design can be deciding on a naming scheme for the creative properties t
 
 ### File Structure
 
-The project is organized as follows:
+Project Organization:
 
 - `/rules` - Contains separate modules for each weight calculation (`calculateClickWeight.js`, `calculateEngagementWeight.js`, `calculateTimeWeight.js`).
 - `creatives.js` - Module exporting the array of creative objects.
