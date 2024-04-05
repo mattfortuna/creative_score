@@ -20,6 +20,12 @@ Project Organization:
 
 ## Testing / Running the code
 
+Clone github repo. Run the following commands:
+
+npm install
+
+npm run creative
+
 I used this site to test. However it is designed with Node.js in mind.
 
 [Testing](https://playcode.io/1826494)
