@@ -17,3 +17,9 @@ Project Organization:
 - `/rules` - Contains separate modules for each weight calculation (`calculateClickWeight.js`, `calculateEngagementWeight.js`, `calculateTimeWeight.js`).
 - `creatives.js` - Module exporting the array of creative objects.
 - `index.js` - The main entry point for the application which uses the modular weight calculations.
+
+## Testing / Running the code
+
+I used this site to test. However it is designed with Node.js in mind.
+
+[Testing](https://playcode.io/1826494)
