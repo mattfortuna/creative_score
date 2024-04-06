@@ -5,8 +5,8 @@ import { creatives } from './creatives.js';
   
 const audience = 'tech'; // this can be made to be variable as well
 
-// Calculate the score of each creative using above dynamicWeights
-export const calculateCreativeScores = (creatives, audience, currentPeriod) => {
+// Calculate the score of each creative
+export const calculateCreativeScores = (creatives, audience) => {
     return creatives
       .filter(creative => creative.segmentAudience === audience)
       .map(creative => {
@@ -28,7 +28,7 @@ export const highestPerformingCreative = (scoredCreatives) => {
 };
 
 // Example case
-const scoredCreatives = calculateCreativeScores(creatives, audience, dynamicWeights);
+const scoredCreatives = calculateCreativeScores(creatives, audience);
 const bestCreative = highestPerformingCreative(scoredCreatives);
 if (bestCreative) {
   console.log(`The best creative for '${audience}' segment is:`, bestCreative);
