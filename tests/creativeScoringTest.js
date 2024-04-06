@@ -3,7 +3,7 @@ Samantha Fortuna
 5:13 PM (0 minutes ago)
 	
 to me
-import { calculateCreativeScores, highestPerformingCreative } from '../creative_scoring.js';
+import { calculateCreativeScores, highestPerformingCreative } from '../creativeScoring.js';
 import {expect} from 'chai';
 
 describe('Creative Scoring System', function() {
