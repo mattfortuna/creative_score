@@ -4,24 +4,19 @@ import { calculateTimeWeight } from './rules/calculateTimeWeight.js';
 import { creatives } from './creatives.js';
   
 const audience = 'tech'; // this can be made to be variable as well
-// Dynamic Weights
-const dynamicWeights = {
-  clickWeight: 0.5, // weight of click throughs in judging score
-  engagementWeight: 0.3, // weight of engangement in judging score
-};
-  
-  // Calculate the score of each creative using above dynamicWeights
+
+// Calculate the score of each creative using above dynamicWeights
 export const calculateCreativeScores = (creatives, audience, currentPeriod) => {
     return creatives
       .filter(creative => creative.segmentAudience === audience)
       .map(creative => {
-        const clickWeight = calculateClickWeight(creative.clicks, creative.impressions);
-        const engagementWeight = calculateEngagementWeight(creative.engagements, creative.impressions);
-        const timeWeight = calculateTimeWeight(creative.timePeriod);
+        const clickWeight = calculateClickWeight(creative.clicks, creative.impressions); // calculate percentage of clicks per impression
+        const engagementWeight = calculateEngagementWeight(creative.engagements, creative.impressions); // calculate percentage of engangements per impression
+        const timeWeight = calculateTimeWeight(creative.timePeriod); // calculate influence of time of day
   
-        const score = (clickWeight + engagementWeight) * timeWeight;
-        return { ...creative, score };
-      });
+        const score = (clickWeight + engagementWeight) * timeWeight; // calculate score
+        return { ...creative, score }; // return creative
+      }); // return array of creatives with updated scores
   };
 
 // Select best of scored creatives
