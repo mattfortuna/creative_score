@@ -2,8 +2,8 @@ import { calculateCreativeScores, highestPerformingCreative } from './creativeSc
 import { creatives } from './creatives.js';
 
 // test out an example creative
-
-const scoredCreatives = calculateCreativeScores(creatives, 'tech');
+const audience = 'tech';
+const scoredCreatives = calculateCreativeScores(creatives, audience);
 const bestCreative = highestPerformingCreative(scoredCreatives);
 if (bestCreative) {
   console.log(`The best creative for '${audience}' segment is:`, bestCreative);
