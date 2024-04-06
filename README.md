@@ -17,7 +17,7 @@ Project Organization:
 - `/rules` - Contains separate modules for each weight calculation (`calculateClickWeight.js`, `calculateEngagementWeight.js`, `calculateTimeWeight.js`).
 - `creatives.js` - Module exporting the array of creative objects.
 - `creativeScoring.js` – Scoring functions
-- `exampleCreative.js` – Example using an array of stubbed creatives
+- `exampleCreative.js` – Example using an array of stubbed creatives (`creatives.js`)
 - `tests` – Unit tests
 
 ## Running the code
