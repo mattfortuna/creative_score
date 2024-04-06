@@ -18,7 +18,7 @@ Project Organization:
 - `creatives.js` - Module exporting the array of creative objects.
 - `index.js` - The main entry point for the application which uses the modular weight calculations.
 
-## Testing / Running the code
+## Running the code
 
 Clone github repo. Install node. Run the following commands:
 
@@ -28,4 +28,8 @@ npm run creative
 
 If there are any issues you can test on this online setup I have. It is written as frontend js, but works the same.
 
-[Testing](https://playcode.io/1826494)
+[Backup Example](https://playcode.io/1826494)
+
+## Testing
+
+npm test
