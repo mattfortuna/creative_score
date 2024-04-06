@@ -26,10 +26,6 @@ npm install
 
 npm run creative
 
-If there are any issues you can test on this online setup I have. It is written as frontend js, but works the same.
-
-[Backup Example](https://playcode.io/1826494)
-
 ## Testing
 
 I used the mocha and chai framework/library to write unit tests. You can run these with:
