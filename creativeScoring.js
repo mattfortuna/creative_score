@@ -25,7 +25,7 @@ export const calculateCreativeScores = (creatives, audience, currentPeriod) => {
   };
 
 // Select best of scored creatives
-function highestPerformingCreative(scoredCreatives) {
+export const highestPerformingCreative = (scoredCreatives) => {
   if (scoredCreatives.length === 0) {
     return null;
   }
