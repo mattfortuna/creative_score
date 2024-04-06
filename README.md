@@ -16,11 +16,13 @@ Project Organization:
 
 - `/rules` - Contains separate modules for each weight calculation (`calculateClickWeight.js`, `calculateEngagementWeight.js`, `calculateTimeWeight.js`).
 - `creatives.js` - Module exporting the array of creative objects.
-- `index.js` - The main entry point for the application which uses the modular weight calculations.
+- `creativeScoring.js` – Scoring functions
+- `creativeExample.js` – Example using an array of stubbed creatives
+- `tests` – Unit tests
 
 ## Running the code
 
-Clone github repo. Install node. Run the following commands:
+Clone github repo. Make sure most recent version of node is downloaded. Run the following commands:
 
 npm install
 
