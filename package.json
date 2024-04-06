@@ -6,6 +6,6 @@
   },
   "scripts": {
     "test": "mocha tests/**/*.js",
-    "creative": "node creativeScoring.js"
+    "creative": "node exampleCreative.js"
   }
 }
