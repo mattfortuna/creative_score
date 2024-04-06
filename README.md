@@ -32,4 +32,6 @@ If there are any issues you can test on this online setup I have. It is written 
 
 ## Testing
 
+I used the mocha and chai framework/library to write unit tests. You can run these with:
+
 npm test
