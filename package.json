@@ -1,10 +1,11 @@
 {
   "type": "module",
   "devDependencies": {
+    "chai": "^5.1.0",
     "mocha": "^10.4.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
     "creative": "node creative_scoring.js"
   }
 }
