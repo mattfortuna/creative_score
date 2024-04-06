@@ -1,3 +1,5 @@
+import { calculateCreativeScores, highestPerformingCreative } from './creativeScoring.js';
+
 const scoredCreatives = calculateCreativeScores(creatives, audience);
 const bestCreative = highestPerformingCreative(scoredCreatives);
 if (bestCreative) {
