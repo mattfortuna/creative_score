@@ -12,7 +12,7 @@ describe('Creative Scoring System', function() {
       const currentPeriod = 'night';
       const dynamicWeights = { clickWeight: 0.5, engagementWeight: 0.3 };
      
-      const scoredCreatives = calculateCreativeScores(creatives, audience, currentPeriod, dynamicWeights);
+      const scoredCreatives = calculateCreativeScores(creatives, audience);
      
       expect(scoredCreatives).to.be.an('array');
       expect(scoredCreatives[0].score).to.be.above(0);
