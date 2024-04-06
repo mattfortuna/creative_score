@@ -1,8 +1,3 @@
-Samantha Fortuna
-	
-5:13 PM (0 minutes ago)
-	
-to me
 import { calculateCreativeScores, highestPerformingCreative } from '../creativeScoring.js';
 import {expect} from 'chai';
 
