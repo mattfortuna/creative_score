@@ -6,8 +6,8 @@ import { creatives } from './creatives.js';
 const audience = 'tech'; // this can be made to be variable as well
 // Dynamic Weights
 const dynamicWeights = {
-  clickWeight: 0.5,
-  engagementWeight: 0.3,
+  clickWeight: 0.5, // weight of click throughs in judging score
+  engagementWeight: 0.3, // weight of engangement in judging score
 };
   
   // Calculate the score of each creative using above dynamicWeights
