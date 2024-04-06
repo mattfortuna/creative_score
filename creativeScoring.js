@@ -30,7 +30,7 @@ export const highestPerformingCreative = (scoredCreatives) => {
     return null;
   }
   return scoredCreatives.reduce((prev, current) => (prev.score > current.score) ? prev : current);
-}
+};
 
 // Example case
 const scoredCreatives = calculateCreativeScores(creatives, audience, dynamicWeights);
